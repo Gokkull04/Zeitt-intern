@@ -70,26 +70,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-requirement 
-
-Employee management system
-add ( add employee data)
-edit ( edit employee data)
-detail page ( show detail of selected empleyee)
-homepage (show cards of all employee)
-
-material ui 
-routing
-API (axios)
-
-
-fname
-lname
-depatrtment
-email
-mobile
-gender
-<!-- dob -->
-address
-
-
