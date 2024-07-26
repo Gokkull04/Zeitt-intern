@@ -17,7 +17,7 @@ const Home = () => {
           className="cursor-pointer border border-gray-300 bg-white p-6 rounded-lg shadow-md hover:bg-gray-50 transition duration-300 ease-in-out"
           onClick={() => navigate("/login")}
         >
-          <h2 className="text-xl font-semibold text-gray-800">Admin</h2>
+          <h2 className="text-center text-xl font-semibold text-gray-800">Admin</h2>
         </div>
       </div>
     </div>
