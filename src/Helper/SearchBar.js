@@ -1,22 +1,23 @@
 import React, { useState } from 'react';
+import { TextField } from '@mui/material';
 
 const SearchBar = ({ onSearch }) => {
-  const [term, setTerm] = useState('');
+  const [searchTerm, setSearchTerm] = useState('');
 
-  const handleInputChange = (e) => {
-    setTerm(e.target.value);
+  const handleChange = (e) => {
+    setSearchTerm(e.target.value);
     onSearch(e.target.value);
   };
 
   return (
-    <div>
-      <input
-        type="text"
-        placeholder="Search by first name..."
-        value={term}
-        onChange={handleInputChange}
-      />
-    </div>
+    <TextField
+      label="Search"
+      variant="outlined"
+      size="small"
+      value={searchTerm}
+      onChange={handleChange}
+      sx={{ width: 200 }}
+    />
   );
 };
 
