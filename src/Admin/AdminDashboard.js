@@ -1,17 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import SearchBar from '../Helper/SearchBar';
 
 const AdminDashboard = () => {
-  const handleSearch = (searchTerm) => {
-    console.log('Search term:', searchTerm);
-  };
 
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col p-4">
       <div className="flex items-center justify-between p-4 bg-white border-b border-gray-300 shadow-md">
         <h1 className="text-3xl font-bold text-gray-800">ZEITT</h1>
-        <SearchBar onSearch={handleSearch} />
       </div>
 
       <div className="flex-grow flex items-center justify-center">
